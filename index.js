@@ -2,7 +2,7 @@
 const Kahoot = require("kahoot.js-updated"); 
 const client = new Kahoot();
 let array;
-client.join('07869157', Math.random() + "- KittyCat (Lilia)");
+client.join('GameCode', Math.random() + "- UserName");
 
 client.on("QuizStart", () => {
 	console.log("The quiz has started!");
